@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script> <!--snakker med js filen-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badetemperatur på Bevø</title> <!--tittel eller fane navn-->
+    <style>
+        h1 {
+  text-align: center;
+        }
+
+              .container {
+  display: block;
+  margin-left: auto;
+  margin-right: 20%;
+  width: 40%;
+              }
+          .container {
+            display: flex;
+            align-items: center; 
+        }
+        .container img {
+            margin-right: 50px; 
+            max-width: 300px; 
+        }
+        .container p {
+            margin: 0; 
+        }
+   </style> <!--css kode-->
+
+</head>
+<body>
+
+<h1>Badetemperatur på Bevø</h1> <!--overskrift-->
+
+
+<div class="container"> <!--container er det vi definerer i css koden for å endre størrelse og plass-->
+<p>
+    <b>Tid:</b><div1 id="tid"></div1>
+
+    <b>temp:</b><div2 id="badetemp"></div2>°C <!-- tid og badetemp med celsius og skrift foran innen for en paragraf sånn at vi deler det opp med image-->
+</p>
+    <img src="https://www.fredrikstad.kommune.no/globalassets/bilder/kmb/miljo-og-landbruk/badeplasser---gallerier/bevo/bevo-badeplass.jpg"> <!--img source med bilde link-->
+</div>
+    
+</body>
+</html>
